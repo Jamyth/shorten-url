@@ -1,0 +1,21 @@
+{
+  "name": "@shorten-url/root",
+  "version": "1.0.0",
+  "description": "A side-project which provides service in shortening url for temporary use",
+  "main": "index.js",
+  "author": "Jamyth",
+  "license": "MIT",
+  "private": "true",
+  "workspaces": {
+    "packages": [
+      "api",
+      "web"
+    ]
+  },
+  "devDependencies": {
+    "@iamyth/prettier-config": "0.0.1",
+    "eslint": "7.23.0",
+    "eslint-config-iamyth": "0.0.5",
+    "prettier": "2.2.1"
+  }
+}
