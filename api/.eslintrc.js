@@ -1,6 +1,6 @@
 /** @type {import('eslint').Linter.Config} */
 const config = {
-  ignorePatterns: ['**/dist/**'],
+  ignorePatterns: ['**/dist/**', "**/node_modules/**"],
   extends: ['iamyth/preset/node'],
   parserOptions: {
     project: './tsconfig.json',
