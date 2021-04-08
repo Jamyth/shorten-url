@@ -1348,6 +1348,14 @@
     multer "1.4.2"
     tslib "2.0.3"
 
+"@nestjs/schedule@0.4.3":
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/@nestjs/schedule/-/schedule-0.4.3.tgz#e780bfc52c2505ec5bbd7261033a7749f0808a20"
+  integrity sha512-EowkpwD09lrdMFzjt/kNQgaq6MG0GrNadNoOEebbfyA0qBU0UTg7J+FVullTR9+5HtaegqqAuWDvZlVoGHYz+Q==
+  dependencies:
+    cron "1.7.2"
+    uuid "8.3.2"
+
 "@nestjs/schematics@7.1.3":
   version "7.1.3"
   resolved "https://registry.yarnpkg.com/@nestjs/schematics/-/schematics-7.1.3.tgz#381dc65145d3fff81d4004b7d1fb47c71f07e571"
@@ -1530,6 +1538,14 @@
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/@types/cookiejar/-/cookiejar-2.1.2.tgz#66ad9331f63fe8a3d3d9d8c6e3906dd10f6446e8"
   integrity sha512-t73xJJrvdTjXrn4jLS9VSGRbz0nUY3cl2DMGDU48lKl+HR9dbbjW2A9r3g40VA++mQpy6uuHg33gy7du2BKpog==
+
+"@types/cron@1.7.2":
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/@types/cron/-/cron-1.7.2.tgz#e9fb420da616920dae82d13adfca53282ffaab6e"
+  integrity sha512-AEpNLRcsVSc5AdseJKNHpz0d4e8+ow+abTaC0fKDbAU86rF1evoFF0oC2fV9FdqtfVXkG2LKshpLTJCFOpyvTg==
+  dependencies:
+    "@types/node" "*"
+    moment ">=2.14.0"
 
 "@types/eslint-scope@^3.7.0":
   version "3.7.0"
@@ -2385,6 +2401,13 @@ anymatch@^3.0.3, anymatch@~3.1.1:
   dependencies:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
+
+api-code-generator@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/api-code-generator/-/api-code-generator-1.0.0.tgz#60ace4cb0ca7d13d9c05d04e394da814d4dd2151"
+  integrity sha512-D3/W8VjvHkKCXpkKB9rU+eZ/cKlKJFqu2w3Q+6TvneJxrW0POZazhpG6mKHeoMGcqWWsYrLxYPvkstK++gVWGA==
+  dependencies:
+    axios "0.21.1"
 
 append-field@^1.0.0:
   version "1.0.0"
@@ -3490,6 +3513,13 @@ create-require@^1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/create-require/-/create-require-1.1.1.tgz#c1d7e8f1e5f6cfc9ff65f9cd352d37348756c333"
   integrity sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==
+
+cron@1.7.2:
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/cron/-/cron-1.7.2.tgz#2ea1f35c138a07edac2ac5af5084ed6fee5723db"
+  integrity sha512-+SaJ2OfeRvfQqwXQ2kgr0Y5pzBR/lijf5OpnnaruwWnmI799JfWr2jN2ItOV9s3A/+TFOt6mxvKzQq5F0Jp6VQ==
+  dependencies:
+    moment-timezone "^0.5.x"
 
 cross-spawn@^6.0.0:
   version "6.0.5"
@@ -5223,6 +5253,11 @@ ignore@^5.0.5, ignore@^5.1.4:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.1.8.tgz#f150a8b50a34289b33e22f5889abd4d8016f0e57"
   integrity sha512-BMpfD7PpiETpBl/A6S498BaIJ6Y/ABT93ETbby2fP00v4EbvPBXWEoaR1UBPKs3iR53pJY7EtZk5KACI57i1Uw==
 
+immer@9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/immer/-/immer-9.0.1.tgz#1116368e051f9a0fd188c5136b6efb74ed69c57f"
+  integrity sha512-7CCw1DSgr8kKYXTYOI1qMM/f5qxT5vIVMeGLDCDX8CSxsggr1Sjdoha4OhsP0AZ1UvWbyZlILHvLjaynuu02Mg==
+
 import-fresh@^3.0.0, import-fresh@^3.1.0, import-fresh@^3.2.1:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/import-fresh/-/import-fresh-3.3.0.tgz#37162c25fcb9ebaa2e6e53d5b4d88ce17d9e0c2b"
@@ -6665,6 +6700,18 @@ mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@^0.5.5:
   dependencies:
     minimist "^1.2.5"
 
+moment-timezone@^0.5.x:
+  version "0.5.33"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.33.tgz#b252fd6bb57f341c9b59a5ab61a8e51a73bbd22c"
+  integrity sha512-PTc2vcT8K9J5/9rDEPe5czSIKgLoGsH8UNpA4qZTVw0Vd/Uz19geE9abbIOQKaAQFcnQ3v5YEXrbSc5BpshH+w==
+  dependencies:
+    moment ">= 2.9.0"
+
+"moment@>= 2.9.0", moment@>=2.14.0:
+  version "2.29.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
+  integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
+
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/move-concurrently/-/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -6773,10 +6820,10 @@ neo-async@^2.5.0, neo-async@^2.6.1, neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-nest-api-generator@1.2.18:
-  version "1.2.18"
-  resolved "https://registry.yarnpkg.com/nest-api-generator/-/nest-api-generator-1.2.18.tgz#aed549565f7bf8d6f0e8d938ff29b7c46992a792"
-  integrity sha512-Cp9BV3txjyCk9CtGu4h9yhLByMXMuv4yhoA35cMwJxwE3/48TU4ab1dXgihpSnIa6INKsi45B1Hbc16lKV3oNw==
+nest-api-generator@1.2.19:
+  version "1.2.19"
+  resolved "https://registry.yarnpkg.com/nest-api-generator/-/nest-api-generator-1.2.19.tgz#fa27442d0d3345a7a1f6d06bb1fba19d6c18845e"
+  integrity sha512-F9M/3Xlvh602xaOnF3vQcUXtcmUs/V8hg0De89VOA4P4T6SGmfz/9hLBDmGt5M+GzP8xrhpm9R/yy40j7kCfGA==
   dependencies:
     "@nestjs/common" "^7.6.13"
     chalk "^4.1.0"
@@ -8394,6 +8441,11 @@ shellwords@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/shellwords/-/shellwords-0.1.1.tgz#d6b9181c1a48d397324c84871efbcfc73fc0654b"
   integrity sha512-vFwSUfQvqybiICwZY5+DAWIPLKsWO31Q91JSKl3UYv+K5c2QRPzn0qzec6QPu1Qc9eHYItiP3NdJqNVqetYAww==
+
+short-unique-id@3.2.3:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/short-unique-id/-/short-unique-id-3.2.3.tgz#c35c8230d4ece9c27a14c41d2ca24730344c6e01"
+  integrity sha512-DaUTmZe2PP34AQ2DmBOjo0W41Br/74EbKmEosfipbMJdJf2MCdzgJBOXn+PRe/ERFnr9uRKnUa6Kb5X+VC3bCQ==
 
 side-channel@^1.0.4:
   version "1.0.4"
