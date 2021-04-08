@@ -12,6 +12,9 @@ logs
 **/yarn-error.log*
 **/lerna-debug.log*
 
+# Webpack Cache
+**/.webpack-cache/**
+
 # Misc
 *.DS_Store
 
