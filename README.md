@@ -2,6 +2,8 @@
 
 A simple web application for shortening long url into short.
 
+[DEMO](https://url.jcstudio.com.hk/)
+
 ## **Tech Stack:**
 
 Backend: `NestJS`
