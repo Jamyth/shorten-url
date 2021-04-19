@@ -2,7 +2,7 @@
 
 A simple web application for shortening long url into short.
 
-[DEMO](https://url.jamyth/com)
+[DEMO](https://url.jamyth.com)
 
 ## **Tech Stack:**
 
